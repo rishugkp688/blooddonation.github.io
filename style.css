@@ -1,0 +1,137 @@
+body{
+    background: #CCE2E1;
+    font-family: sans-serif;
+    margin: 0%;
+    padding: 0%;
+}
+header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    padding-left: 3%;
+    font-size: 140%;
+}
+.logo p a{
+    color: black;
+    text-decoration: none;
+}
+.login{
+    padding-top: 2%;
+    padding-right: 3%;
+}
+nav{
+    background: white;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+    font-size: 110;
+}
+nav a:hover{
+    color: purple;
+}
+main{
+    padding-top: 2%;
+}
+.upper{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 2%;
+}
+.donor_form{
+    margin-left: 2%;
+    width: 46%;
+    background: #4894b1 ;
+    border-radius: 2%;
+    color: white;
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+.donor_fo{
+    text-align: left;
+    padding-left: 4%;
+}
+.donor_fo input[type=text]{
+    width: 75%;
+}
+.donor_fo h3{
+    font-size: 170%;
+    text-decoration: underline;
+    text-align: center;
+    color: black;
+}
+.donor_vid{
+    margin-right: 2%;
+    width: 46%;
+    background: #4894b1 ;
+    border-radius: 2%;
+    color: white;
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+.donor_vid{
+    font-size: 160%;
+    color: black;
+    text-decoration: underline;
+}
+hr{
+    border: 1px solid black;
+}
+.middle{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+.middle2{
+    background: #4894b1;
+    border-radius: 2%;
+    color: white;
+    text-align: left;
+    padding: 1%;
+    width: 90%;
+}
+.middle2 h2{
+    text-align: center;
+    text-decoration: underline;
+    color: black;
+}
+.middle2 h4{
+    text-align: center;
+    color: black;
+}
+.middle2 h3{
+    text-align: center;
+}
+.middle2 p{
+    text-align: center;
+}
+.info{
+    display: flex;
+}
+.lower{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+.lower2{
+    background: #4894b1;
+    border-radius: 2%;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    width: 90%;
+}
